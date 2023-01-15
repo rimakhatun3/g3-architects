@@ -247,5 +247,61 @@ margin: 130px 240px 216px;
 font-size: 20px;
 text-align: center;
 color: #424242;
+}
+/* mobile device */
+@media only screen and (max-width:568px) {
+    body{
+        width: 100%;
+    }
+    .header{
+        flex-direction: column;
+justify-content: center;
+align-items: center;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .banner-image{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 5px;
+    }
+.feature-team{
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 20px;
+}
+.feature-teams{
+   flex-direction: column;
+   margin-left: 20px;
+}
+.feature-blogs{
+    flex-direction: column;
+    margin-left: 20px;
+   
+}
+.btn-sceondary{
+    margin-left: 170px;
+}
+.icon-blogs{
+flex-direction: column;
 
+}
+.icon-info{
+    margin-left: 20px;
+}
+.sponspors-container , .sponspors-item{
+    flex-direction: column;
+    row-gap: 30px;
+    margin-left: 20px;
+    
+}
+.footer-area{
+    background-color:  #FFF4E7;
+   border-radius: 8px;
+   padding: 20px 200px;
+   margin-left: 10px;
+  
+   }
+  
 }
